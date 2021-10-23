@@ -14,9 +14,9 @@ Power on the Flir One Pro and connect it to the Jetson Nano.
 
 * software
 run the following command in the Jetson Nano prompt
-`wget ftp://mama.indstate.edu/linux/tree/tree-1.6.0.tgz`
-`tar xzvf tree-1.6.0.tgz`
-`cd tree-1.6.0`
+`wget ftp://mama.indstate.edu/linux/tree/tree-1.6.0.tgz`\
+`tar xzvf tree-1.6.0.tgz`\
+`cd tree-1.6.0`\
 `make && sudo make install`
 
 Download this repository to local directory and install the dependencies.
@@ -24,9 +24,9 @@ Download this repository to local directory and install the dependencies.
 `sudo bash scripts/setup_environment.sh`
 
 install docker:
-`sudo chmod 777 scripts/setup_environment.sh`
-`sudo bash scripts/build_docker.sh flir_client_aarch64`
-`sudo bash scripts/run_container.sh delete flir_client_aarch64`
+`sudo chmod 777 scripts/setup_environment.sh`\
+`sudo bash scripts/build_docker.sh flir_client_aarch64`\
+`sudo bash scripts/run_container.sh delete flir_client_aarch64`\
 `sudo bash scripts/run_container.sh run flir_client_aarch64`
 
 ## View the results
