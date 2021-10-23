@@ -10,6 +10,7 @@ For more information, please go to the <a href="http://icsl.ee.columbia.edu/Feve
 ## How to join
 Send an email to fever@ee.columbia.edu to request a fever screening service. We will send you an json configuration file along with the web client address. \
 In the email please include the number of hardware (Flir One Pro and Jetson Nano) you have.
+Alternatively, you can fill the <a href="https://forms.gle/HrrUpZk58gDJknvZ8" target="_blank">form</a>.
 
 
 ## Setup the edge
