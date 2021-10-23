@@ -13,7 +13,7 @@ Plug in a ethernet cable to Jetson Nano and power it on. Then one can either con
 Power on the Flir One Pro and connect it to the Jetson Nano.
 
 * software
-run the following command in the Jetson Nano prompt
+run the following command in the Jetson Nano prompt\
 `wget ftp://mama.indstate.edu/linux/tree/tree-1.6.0.tgz`\
 `tar xzvf tree-1.6.0.tgz`\
 `cd tree-1.6.0`\
