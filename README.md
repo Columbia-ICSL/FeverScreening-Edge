@@ -30,4 +30,4 @@ install docker:
 `sudo bash scripts/run_container.sh run flir_client_aarch64`
 
 ## View the results
-If all the commands above are executed successfully, send email to <a href="mailto:fever@ee.columbia.edu"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> or go to the Fever Screeening register webpage to requist the service.
+If all the commands above are executed successfully, send email to fever@ee.columbia.edu or go to the Fever Screeening register webpage to requist the service.
