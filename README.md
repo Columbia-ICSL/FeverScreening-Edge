@@ -19,8 +19,8 @@ run the following command in the Jetson Nano prompt
 `cd tree-1.6.0`\
 `make && sudo make install`
 
-Download this repository to local directory and install the dependencies.
-`cd ~/Fever-Edge`
+Download this repository to local directory and install the dependencies.\
+`cd ~/Fever-Edge`\
 `sudo bash scripts/setup_environment.sh`
 
 install docker:
