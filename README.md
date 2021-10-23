@@ -1,7 +1,7 @@
 # MULTI-PERSON FEVER SCREENING
 
 ## About
-This repository is the program for the fever screening edge device. The edge device consists of a <a href="https://www.amazon.com/FLIR-Thermal-Imaging-Microfiber-Cleaning/dp/B07NS5WNRD/" target="_blank">Flir One Pro</a> and a <a href="https://usedipaq.com/products/nvidia-jetson-nano-developer-kit-2gb" target="_blank">Jetson Nano </a> are required.
+This repository is the program for the fever screening edge device. The edge device consists of a <a href="https://www.amazon.com/FLIR-Thermal-Imaging-Microfiber-Cleaning/dp/B07NS5WNRD/" target="_blank">Flir One Pro</a> and a <a href="https://usedipaq.com/products/nvidia-jetson-nano-developer-kit-2gb" target="_blank">Jetson Nano </a>.
 
 The program runs on Jetson Nano that reads and encrypts he thermal and RGB images from the Flir Onr Pro RGB-Thermal Camera. Then the encrypted iamges will be transmitted to the database on the <a href="http://icsl.ee.columbia.edu/" target="_blank">ICSL </a> server.
 
