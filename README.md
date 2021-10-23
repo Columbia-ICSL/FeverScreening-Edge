@@ -7,7 +7,12 @@ The program runs on Jetson Nano that reads and encrypts he thermal and RGB image
 
 For more information, please go to the <a href="http://icsl.ee.columbia.edu/FeverScreening/" target="_blank">Fever Screening</a> Offical webpage.
 
-## Prerequisite
+## How to join
+Send an email to fever@ee.columbia.edu to request a fever screening service. We will send you an json configuration file along with the web client address. \
+In the email please include the number of hardware (Flir One Pro and Jetson Nano) you have.
+
+
+## Setup the edge
 * hardware
 Plug in a ethernet cable to Jetson Nano and power it on. Then one can either connect a external display to the Jetson Nano or ssh into it.
 Power on the Flir One Pro and connect it to the Jetson Nano.
@@ -20,7 +25,9 @@ run the following command in the Jetson Nano prompt\
 `make && sudo make install`
 
 Download this repository to local directory and install the dependencies.\
-`cd ~/Fever-Edge`\
+`git clone https://github.com/Columbia-ICSL/FeverScreening-Edge.git`\
+Then place the launch.json file you received from email under the FeverScreening-Edge/config directory.\
+'cd FeverScreening-Edge'\
 `sudo bash scripts/setup_environment.sh`
 
 install docker:
@@ -30,4 +37,4 @@ install docker:
 `sudo bash scripts/run_container.sh run flir_client_aarch64`
 
 ## View the results
-If all the commands above are executed successfully, send email to fever@ee.columbia.edu or go to the Fever Screeening register webpage to requist the service.
+Results will be shown on a web client at icsl-lambda.ee.columbia.edu:{PORT}. The PORT is the port number we sent to you in the email.
