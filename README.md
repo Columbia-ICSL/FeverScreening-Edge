@@ -8,7 +8,7 @@ The program runs on Jetson Nano that reads and encrypts he thermal and RGB image
 For more information, please go to the <a href="http://icsl.ee.columbia.edu/FeverScreening/" target="_blank">Fever Screening</a> Offical webpage.
 
 ## How to join
-Send an email to fever@ee.columbia.edu to request a fever screening service. We will send you an json configuration file along with the web client address. \
+Send an email to kh3119@ee.columbia.edu to request a fever screening service. We will send you an json configuration file along with the web client address. \
 In the email please include the number of hardware (Flir One Pro and Jetson Nano) you have.
 Alternatively, you can fill the <a href="https://forms.gle/HrrUpZk58gDJknvZ8" target="_blank">form</a>.
 
