@@ -32,8 +32,6 @@ Then place the launch.json file you received from email under the FeverScreening
 'cd FeverScreening-Edge'\
 `sudo bash scripts/setup_environment.sh`
 
-https://github.com/bazelbuild/bazelisk/releases bazelisk-linux-arm64
-
 install docker:
 `sudo chmod 777 scripts/setup_environment.sh`\
 `sudo bash scripts/build_docker.sh flir_client_aarch64`\
