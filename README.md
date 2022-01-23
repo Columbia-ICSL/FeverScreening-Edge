@@ -23,6 +23,7 @@ run the following command in the Jetson Nano prompt\
 `wget ftp://mama.indstate.edu/linux/tree/tree-1.6.0.tgz`\
 `tar xzvf tree-1.6.0.tgz`\
 `cd tree-1.6.0`\
+You need to enter your password for the following command
 `make && sudo make install`
 
 Download this repository to local directory and install the dependencies.\
@@ -30,6 +31,8 @@ Download this repository to local directory and install the dependencies.\
 Then place the launch.json file you received from email under the FeverScreening-Edge/config directory.\
 'cd FeverScreening-Edge'\
 `sudo bash scripts/setup_environment.sh`
+
+https://github.com/bazelbuild/bazelisk/releases bazelisk-linux-arm64
 
 install docker:
 `sudo chmod 777 scripts/setup_environment.sh`\
