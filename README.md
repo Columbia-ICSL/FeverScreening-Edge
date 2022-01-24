@@ -30,9 +30,9 @@ Download this repository to local directory and install the dependencies.\
 `git clone https://github.com/Columbia-ICSL/FeverScreening-Edge.git`\
 Then place the launch.json file you received from email under the FeverScreening-Edge/config directory.\
 'cd FeverScreening-Edge'\
-`sudo bash scripts/setup_environment.sh`\
+`sudo bash scripts/setup_environment.sh`
 
-`sudo chmod 777 scripts/setup_environment.sh`\
+`sudo chmod 777 scripts/setup_environment.sh`
 
 `sudo bash scripts/build_docker.sh flir_client_aarch64`\
 This command may take a while.\
