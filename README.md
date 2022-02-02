@@ -43,6 +43,8 @@ Download this repository to local directory and install the dependencies.\
 
 `sudo bash scripts/setup_environment.sh`
 
+Download bazel at: https://github.com/bazelbuild/bazelisk/releases bazelisk-linux-arm64
+
 `sudo chmod 777 scripts/setup_environment.sh`
 
 `sudo bash scripts/build_docker.sh flir_client_aarch64`\
