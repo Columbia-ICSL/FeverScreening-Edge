@@ -44,6 +44,8 @@ Download this repository to local directory and install the dependencies.\
 `sudo bash scripts/setup_environment.sh`
 
 Download bazel at: https://github.com/bazelbuild/bazelisk/releases bazelisk-linux-arm64
+Or by command `sudo wget https://github.com/bazelbuild/bazelisk/releases/download/v1.11.0/bazelisk-linux-arm64 -O /usr/local/bin/bazel`\
+`chmod -x /usr/local/bin/bazel`
 
 `sudo chmod 777 scripts/setup_environment.sh`
 
