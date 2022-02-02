@@ -14,9 +14,18 @@ Alternatively, you can fill the <a href="https://forms.gle/HrrUpZk58gDJknvZ8" ta
 
 
 ## Setup the edge
+* Get start on Jetson nano. This step may take about 20 minutes. 
+
+  * <a href="https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit" target="_blank">Preparation for Jetson Nano 2GB Developer Kit</a>. 
+    1. Download images for <a href="https://developer.nvidia.com/jetson-nano-2gb-sd-card-image">Jetson Nano 2GB Developer Kit SD Card Image</a>.
+    2. Write the image to your microSD card according to your operating system. 
+
+  * <a href="https://developer.nvidia.com/embedded/learn/getting-started-jetson" target="_blank">Other versions of Jetson Nano can be found here</a>.
+
 * hardware
-Plug in a ethernet cable to Jetson Nano and power it on. Then one can either connect a external display to the Jetson Nano or ssh into it.
-Power on the Flir One Pro and connect it to the Jetson Nano.
+  * You need a male usb to female usb-c cable adapter(<a href="https://www.amazon.com/5inch-USB-3-1-Adapter-Pack/dp/B087R1GZ1Q/" target="_blank">Link</a>), ethenet cable or network interface card, a display, mouse and keyboard.
+ 
+Plug in a ethernet cable to Jetson Nano, and connect mouse, keyboard and monitor to it, then power it on. You will be asked to setup the system configuration, you can select default options. 
 
 * software
 run the following command in the Jetson Nano prompt\
@@ -24,19 +33,23 @@ run the following command in the Jetson Nano prompt\
 `tar xzvf tree-1.6.0.tgz`\
 `cd tree-1.6.0`\
 You need to enter your password for the following command
-`make && sudo make install`
+`make && sudo make install`\
+`cd ..`
 
 Download this repository to local directory and install the dependencies.\
 `git clone https://github.com/Columbia-ICSL/FeverScreening-Edge.git`\
-Then place the launch.json file you received from email under the FeverScreening-Edge/config directory.\
-'cd FeverScreening-Edge'\
+:heavy_exclamation_mark:  Add `machine_id` and `server_port` in launch.json file you received from email under the FeverScreening-Edge/config directory.\
+`cd FeverScreening-Edge`
+
 `sudo bash scripts/setup_environment.sh`
 
-install docker:
-`sudo chmod 777 scripts/setup_environment.sh`\
+`sudo chmod 777 scripts/setup_environment.sh`
+
 `sudo bash scripts/build_docker.sh flir_client_aarch64`\
+This command may take a while.\
 `sudo bash scripts/run_container.sh delete flir_client_aarch64`\
 `sudo bash scripts/run_container.sh run flir_client_aarch64`
 
 ## View the results
 Results will be shown on a web client at icsl-lambda.ee.columbia.edu:{PORT}. The PORT is the port number we sent to you in the email.
+
