@@ -38,7 +38,7 @@ You need to enter your password for the following command
 
 Download this repository to local directory and install the dependencies.\
 `git clone https://github.com/Columbia-ICSL/FeverScreening-Edge.git`\
-Then place the launch.json file you received from email under the FeverScreening-Edge/config directory.\
+:heavy_exclamation_mark:  Add `machine_id` and `server_port` in launch.json file you received from email under the FeverScreening-Edge/config directory.\
 `cd FeverScreening-Edge`
 
 `sudo bash scripts/setup_environment.sh`
