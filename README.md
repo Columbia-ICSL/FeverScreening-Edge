@@ -46,9 +46,11 @@ Download this repository to local directory and install the dependencies.\
 `sudo chmod 777 scripts/setup_environment.sh`
 
 `sudo bash scripts/build_docker.sh flir_client_aarch64`\
-This command may take a while.\
+This command may take a while.\ Then connect flir one to Jetson nano and make sure Flir one is giving a green light on side. 
 `sudo bash scripts/run_container.sh delete flir_client_aarch64`\
-`sudo bash scripts/run_container.sh run flir_client_aarch64`
+`sudo bash scripts/run_container.sh run flir_client_aarch64`\
+Note: if on the terminal it is saying wait for starting, then the Flir one is not running. 
+Try `sudo docker stop flir_client_aarch64` and retry `sudo bash scripts/run_container.sh run flir_client_aarch64`
 
 ## View the results
 Results will be shown on a web client at icsl-lambda.ee.columbia.edu:{PORT}. The PORT is the port number we sent to you in the email.
