@@ -1,9 +1,0 @@
-ARG BASE_IMAGE="ubuntu:18.04"
-ARG PKG_TAR=".temp_dockerbuild/flir_transponder_pkg.tar"
-FROM $BASE_IMAGE
-
-# Copy setup script to image
-COPY ./docker ./docker
-COPY .temp_dockerbuild/flir_transponder_pkg.tar ./
-RUN tar -xf flir_transponder_pkg.tar
-CMD ["/bin/flirone_transponder", "/launch.json"]
