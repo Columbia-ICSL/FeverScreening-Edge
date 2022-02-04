@@ -1,0 +1,15 @@
+
+ô
+interfaces/flirone_image.protointerfaces/common.protointerfaces/image.proto"Õ
+FlirOneImage
+uuid (	Ruuid2
+measured_timestamp_ns (RmeasuredTimestampNs*
+sent_timestamp_ns (RsentTimestampNs'
+camera_sequence (RcameraSequence
+
+machine_id (	R	machineId3
+	rgb_image (2.image.CompressedImageRrgbImage1
+thermal_image (2.image.ImageRthermalImage!
+msg_sequence (RmsgSequence2A
+FlirOneImageService*
+SubmitImage.FlirOneImage.common.Voidbproto3
