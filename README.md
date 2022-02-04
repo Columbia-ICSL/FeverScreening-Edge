@@ -52,7 +52,7 @@ Or by command `sudo wget https://github.com/bazelbuild/bazelisk/releases/downloa
 This command may take a while.\ 
 Then connect flir one to Jetson nano and make sure Flir one is giving a green light on side. 
 `sudo bash scripts/run_container.sh run flir_client_aarch64`\
-Note: if on the terminal it is saying wait for starting, then the Flir one is not running. 
+Note: if on the terminal it is saying wait for starting, then the Flir one is not running. \
 Try `sudo docker stop flir_client_aarch64` or `sudo bash scripts/run_container.sh delete flir_client_aarch64`\
 and run again with command `sudo bash scripts/run_container.sh run flir_client_aarch64`
 
