@@ -1,0 +1,8 @@
+--output=bazel-out/aarch64-fastbuild/bin/flir_client_aarch64_pkg.tar
+--directory=/
+--mode=0755
+--owner=0.0
+--owner_name=.
+--mtime=portable
+--file=config/launch.json=/launch.json
+--tar=bazel-out/aarch64-fastbuild/bin/flir_client_aarch64_bin_pkg.tar

@@ -1,3 +1,0 @@
-rcsD
-bazel-out/k8-fastbuild/bin/device/sensor/libtemperature_sensor.a
-bazel-out/k8-fastbuild/bin/device/sensor/_objs/temperature_sensor/temperature_sensor.pic.o

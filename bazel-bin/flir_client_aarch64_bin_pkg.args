@@ -1,0 +1,10 @@
+--output=bazel-out/aarch64-fastbuild/bin/flir_client_aarch64_bin_pkg.tar
+--directory=/bin
+--mode=0755
+--owner=0.0
+--owner_name=.
+--mtime=portable
+--file=bazel-out/aarch64-fastbuild/bin/_solib_aarch64/_U@libusb_S_S_Clibusb___Uexternal_Slibusb_Slib/libusb-1.0.so.0=/libusb-1.0.so.0
+--file=bazel-out/aarch64-fastbuild/bin/_solib_aarch64/_U@libusb_S_S_Clibusb___Uexternal_Slibusb_Slib/libusb-1.0.so.0.3.0=/libusb-1.0.so.0.3.0
+--file=bazel-out/aarch64-fastbuild/bin/_solib_aarch64/_U@libredis_S_S_Clibredis___Uexternal_Slibredis_Slib/libhiredis.so.1.0.0=/libhiredis.so.1.0.0
+--file=bazel-out/aarch64-fastbuild/bin/module/flirone_over_post=/flirone_over_post
