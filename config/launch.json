@@ -1,8 +1,8 @@
 {
-    "machine_id": "thermal7",
+    "machine_id": "",
     "config_name": "lambda",
     "server_name": "lambda",
-    "server_port": "15000",
+    "server_port": "",
     "server_ip": "128.59.246.245",
     "server_url": "/fever_service",
     "aes_key": "1550deb2825dd162",
