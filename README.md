@@ -1,7 +1,7 @@
 # MULTI-PERSON FEVER SCREENING
 
 ## About
-This repository is the program for the fever screening edge device. The edge device consists of a <a href="https://www.amazon.com/Thermal-Imaging-Android-USB-C-Resolution/dp/B0716ZGL7C" target="_blank">Flir One Pro</a> and a <a href="https://usedipaq.com/products/nvidia-jetson-nano-developer-kit-2gb" target="_blank">Jetson Nano </a>.
+This repository is the program for the fever screening edge device. The edge device consists of a <a href="https://www.amazon.com/Thermal-Imaging-Android-USB-C-Resolution/dp/B0716ZGL7C" target="_blank">Flir One Pro</a> and a <a href="https://www.amazon.com/NVIDIA-Jetson-Nano-Developer-945-13541-0000-000/dp/B08J157LHH/ref=pd_lpo_147_t_0/146-6755111-0987264?_encoding=UTF8&pd_rd_i=B08J157LHH&pd_rd_r=46d84ae7-03c8-43ef-9e86-7663a167f108&pd_rd_w=V8Qia&pd_rd_wg=Y1BqF&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=TS8FB5WP72FETGNKJ7ET&psc=1&refRID=TS8FB5WP72FETGNKJ7ET" target="_blank">Jetson Nano </a>.
 
 The program runs on Jetson Nano that reads and encrypts he thermal and RGB images from the Flir Onr Pro RGB-Thermal Camera. Then the encrypted iamges will be transmitted to the database on the <a href="http://icsl.ee.columbia.edu/" target="_blank">ICSL </a> server.
 
